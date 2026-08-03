@@ -1,0 +1,544 @@
+name: N32L40x Series
+generated_from_pack: true
+pack_file_release: 1.4.0
+variants:
+- name: N32L402C8
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20002000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L402CB
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20002000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L402R8
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20002000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L402RB
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20002000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L402RD
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20002000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L403K8
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L403KB
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406C8
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406CB
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406CD
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406MB
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406R8
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8010000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20002000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406RB
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+- name: N32L406RD
+  cores:
+  - name: main
+    type: armv7em
+    core_access_options: !Arm
+      ap: !v1 0
+  memory_map:
+  - !Nvm
+    name: IROM1
+    range:
+      start: 0x8000000
+      end: 0x8020000
+    cores:
+    - main
+    access:
+      write: false
+      boot: true
+  - !Ram
+    name: IRAM1
+    range:
+      start: 0x20000000
+      end: 0x20004000
+    cores:
+    - main
+    access:
+      execute: false
+  - !Ram
+    name: IRAM2
+    range:
+      start: 0x20006000
+      end: 0x20008000
+    cores:
+    - main
+    access:
+      execute: false
+  flash_algorithms:
+  - n32l40x
+flash_algorithms:
+- name: n32l40x
+  description: N32L40x flash
+  default: true
+  instructions: MLUDRgxGcrZK9qogdU0oYEAQKGAGIGhgQPb/cKhgSvaqIChgcEgAaEDwAQBuTShgKEbAaUDwgFDoYWxIAGhA8AMAak0oYEDyWWEH4EkeaEgAaQDwAgACKADRAeAAKfXRAL9jSABoQPTAYGFNKGBA8llhB+BJHl5IAGkA8AIAAigA0AHgACn10QC/QPJZYQfgSR5XSABpAPACAAIoANEB4AAp9dEAv1NIAGgg8ABwUU0oYGK2AL9MSABoAPACAAIo+dFNSElNaGBMSGhgACAwvQFGRkgAaUDwgABEShBhACBwR0JIAWlA8jcggUNB8AQBPkgBYQBpQPBAADxKEGED4Er2qiA3ShBgOEjAaADwAQAAKPXRNUgAaSDwBAAzShBhACBwRwJGMUgBaUDyNyCBQ0HwAgEtSAFhQmEAaUDwQAAqSxhhA+BK9qogJksYYCdIwGgA8AEAACj10SRIAGkg8AIAIksYYQAgcEcQtQNGSvaqIBxMIGAdSABpQPI3JKBDGkwgYcgcIPADASfgF0gAaUDwAQAVTCBhEGgYYAC/E0jAaADwAQAAKPnREEgAaSDwAQAOTCBhIEbAaADwFAAwsSBGwGhA8BQA4GABIBC9Gx0SHQkfSvaqIAJMIGAAKdXRACDz5wAwAEAAEAJAACACQABwAEAgGABAIwFnRauJ780AAAAA
+  pc_init: 0x1
+  pc_uninit: 0xd1
+  pc_program_page: 0x16b
+  pc_erase_sector: 0x125
+  pc_erase_all: 0xe3
+  data_section_offset: 0x200
+  flash_properties:
+    address_range:
+      start: 0x8000000
+      end: 0x8020000
+    page_size: 0x800
+    erased_byte_value: 0xff
+    program_page_timeout: 100
+    erase_sector_timeout: 500
+    sectors:
+    - size: 0x800
+      address: 0x0
