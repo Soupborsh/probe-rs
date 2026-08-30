@@ -245,20 +245,11 @@ variants:
     name: IRAM1
     range:
       start: 0x20000000
-      end: 0x20004000
+      end: 0x20006000
     cores:
     - main
     access:
-      execute: false
-  - !Ram
-    name: IRAM2
-    range:
-      start: 0x20006000
-      end: 0x20008000
-    cores:
-    - main
-    access:
-      execute: false
+      execute: true
   flash_algorithms:
   - n32l40x
 - name: N32L406C8
